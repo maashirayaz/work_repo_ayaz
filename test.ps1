@@ -1,2 +1,2 @@
 
-New-AzResourceGroup -Name rg-demo-1245 -Location 'West Europe' 
+New-AzResourceGroup -Name rg-demo-test023 -Location 'West Europe' 
