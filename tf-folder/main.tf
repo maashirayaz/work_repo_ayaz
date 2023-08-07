@@ -12,7 +12,7 @@ variable "location" {
 variable "resource_group_names" {
   description = "List of names for the resource groups"
   type        = list(string)
-  default     = ["rg-test1", "rg-test2", "rg-test3"] # Add more names as needed
+  default     = ["rg-test01", "rg-test02", "rg-test03"] # Add more names as needed
 }
 
 resource "azurerm_resource_group" "example" {
